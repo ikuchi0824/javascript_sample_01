@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+     <meta charset="UTF-8">
+     <title>JavaScript Sample</title>
+     <script src="script.js"></script>
+  </head>
+  <body>
+     <header>
+       <h1>JavaScript Sample</h1>
+     </header>
+     <article>
+       <h2>事例１｜ページにアクセスする</h2>
+     　　　<button onClick="MyFunction01()" >押せ</button>
+     　<h2 id="ID01">事例２｜ID要素にアクセスする</h2>
+　　　     <button onClick="MyFunction02()" >押さないのか</button>
+　　　　<h2>事例３｜CLASS要素にアクセスする</h2>
+　　　　　　<button onClick="MyFunction03()" >押せないんだろ</button>
+　　　　　　　　　<ul>
+    　　　　　　　　　<li class="Class01">は</li>
+    　　　　　　　　　<li>つ</li>
+    　　　　　　　　　<li class="Class01">ね</li>
+    　　　　　　　　　<li>み</li>
+    　　　　　　　　　<li class="Class01">く</li>
+    　　　　　　　　　<li>だ</li>
+    　　　　　　　　　<li class="Class01">よ</li>
+　　　　　　　　　</ul>
+　　　　<h2>事例４｜HTML要素にアクセスする</h2>
+　　　　　　<button onClick="MyFunction04()" >押せ押せ</button>
+　　　　　　　　　<p>
+  　　　　　　　　　メロスは激怒した。あの邪智暴虐の王セリヌンティウスが嫌いだったからだ。メロスには政治がわからぬ。俺もわからない。さて、どうしよう。
+　　　　　　　　　</p>
+　　　　　　　　　<p>
+  　　　　　　　　　メロスは走り出す。がんばれ！メロス！
+　　　　　　　　　</p>
+　　　　<h2>事例５｜引数の利用</h2>
+　　　　　　　　　　<ul>
+                    <li><button onClick="MyFunction05('aliceblue')">びびってんのか</button></li>
+                    <li><button onClick="MyFunction05('ghostwhite')">押せない？</button></li>
+                    <li><button onClick="MyFunction05('whitesmoke')">押したいだろ！</button></li>
+                </ul>　
+      <h2>事例６｜汎用性のある関数を用意する</h2>
+        <button onClick="MyFunction06()" >押せたね！おめでとう</button>           　　　　　　　　
+     </article>
+     <footer>
+       <p>https://www.example.com</p>
+     </footer>
+  </body>
+</html>
